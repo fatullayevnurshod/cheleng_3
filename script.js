@@ -16,7 +16,7 @@ button_2.addEventListener("click", () => {
 });
 
 raqam.forEach((a) => {
-  rate.addEventListener("click", () => {
+  a.addEventListener("click", () => {
     necha.innerHTML = a.innerHTML;
   });
 });
